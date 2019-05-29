@@ -1,0 +1,85 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    .navigation {
+      height: 52px;
+      background-color: white;
+      border-bottom: 1px solid black;
+    }
+    .post-head {
+      height: 60px;
+      background-color: aquamarine;
+    }
+
+    .post-head-container {
+      display: flex;
+      position: relative;
+      padding: 16px;
+    }
+
+    .post-head-profile {
+      width: 32px;
+      height: 32px;
+    }
+
+    .post-head-profileImg {
+      width: 100%;
+      border-radius: 100%;
+    }
+
+    .post-head-name {
+      padding-left: 5px;
+      flex-grow: 1;
+    }
+
+    .post-contents {
+      width: 100%;
+      background-color: bisque;
+    }
+
+    .post-comtentsImg {
+      width: 100%;
+    }
+
+    .post-infor {
+      height: 40px;
+      background-color: aquamarine;
+    }
+
+    .post-comment {
+      height: 100px;
+      background-color: bisque;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="navigation">
+    네비게이션
+  </div>
+  <div class="post">
+    <div class="post-head">
+      <div class="post-head-container">
+        <div class="post-head-profile">
+          <img class="post-head-profileImg" src="image/profile1.jpg" alt="">
+        </div>
+        <div class="post-head-name">cattac</div>
+        <div class="post-head-btn">...</div>
+      </div>
+    </div>
+    <div class="post-contents">
+      <div class="post-contents-container">
+        <img class="post-comtentsImg" src="image/content1.jpeg" alt="">
+      </div>
+    </div>
+    <div class="post-infor">인포</div>
+    <div class="post-comment">코멘트</div>
+  </div>
+</body>
+
+</html>

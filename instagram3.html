@@ -1,0 +1,132 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <title>Document</title>
+  <style>
+    .navigation {
+      height: 52px;
+      background-color: white;
+      border-bottom: 1px solid black;
+    }
+
+    .post-head {
+      height: 60px;
+      background-color: aquamarine;
+    }
+
+    .post-head-container {
+      display: flex;
+      position: relative;
+      padding: 16px;
+    }
+
+    .post-head-profile {
+      width: 32px;
+      height: 32px;
+    }
+
+    .post-head-profileImg {
+      width: 100%;
+      border-radius: 100%;
+    }
+
+    .post-head-name {
+      padding-left: 5px;
+      flex-grow: 1;
+    }
+
+    .post-contents {
+      width: 100%;
+      background-color: bisque;
+    }
+
+    .post-comtentsImg {
+      width: 100%;
+    }
+
+    .post-infor {
+      height: 40px;
+      /* background-color: aquamarine; */
+    }
+
+    .post-infor-container {
+      display: flex;
+      position: relative;
+      padding-left: 2%;
+      padding-right: 2%;
+    }
+
+    .post-infor-pages {
+      flex-grow: 1;
+    }
+
+    .inforBtn {
+      /* display: block; */
+      width: 38px;
+      height: 38px;
+      font-size: 24px;
+      text-align: center;
+      line-height: 40px;
+    }
+
+    .post-comment {
+      height: 100px;
+      background-color: bisque;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="navigation">
+    네비게이션
+  </div>
+  <div class="post">
+    <div class="post-head">
+      <div class="post-head-container">
+        <div class="post-head-profile">
+          <img class="post-head-profileImg" src="image/profile1.jpg" alt="">
+        </div>
+        <div class="post-head-name">cattac</div>
+        <div class="post-head-btn">...</div>
+      </div>
+    </div>
+    <div class="post-contents">
+      <div class="post-contents-container">
+        <img class="post-comtentsImg" src="image/content1.jpeg" alt="">
+      </div>
+    </div>
+    <div class="post-infor">
+      <div class="post-infor-container">
+        <i class="far fa-heart inforBtn"></i>
+        <i class="far fa-comment inforBtn"></i>
+        <i class="fas fa-external-link-alt inforBtn"></i>
+        <span class="post-infor-pages"></span>
+        <i class="far fa-bookmark inforBtn"></i>
+      </div>
+    </div>
+    <div class="post-comment">
+      <div class="post-comment-infor">
+        <div class="comment-infor-profile">
+        </div>
+        <div class="comment-infor-name">
+        </div>
+      </div>
+      <ul class="post-comment-lists">
+        <li class="post-comment-list" v-for="comment in post.comments">
+          <span class="post-comment-name">{{comment.name}}</span>
+          <span class="post-comment-content">{{comment.content}}</span>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>
