@@ -1,0 +1,49 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+  <div id="app">
+    <local-comp></local-comp>
+    <global-comp></global-comp>
+  </div>
+  <br>
+  <div id="app2">
+    <local-comp></local-comp>
+    <global-comp></global-comp>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script>
+    var localComponent = {
+      template: //html
+        `<div>이것은 지역 컴포넌트 입니다.</div>`
+    }
+
+    Vue.component('global-comp', {
+      template: //html
+        `<div>이것은 글로벌 컴포넌트 입니다.</div>`
+    })
+
+    var vue = new Vue({
+      el: '#app',
+      data: {
+        msg: "hello vue.js"
+      },
+      components: {
+        'local-comp': localComponent
+      }
+    })
+
+    var vue2 = new Vue({
+      el:'#app2',
+    })
+
+  </script>
+</body>
+
+</html>
