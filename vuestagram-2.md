@@ -30,7 +30,7 @@ todo LIst가 무엇인지 궁금하면 아래의 데모페이지
 * [http://storyg.co/todos-client/\#/](http://storyg.co/todos-client/#/)
 * [https://kr.vuejs.org/v2/examples/todomvc.html](https://kr.vuejs.org/v2/examples/todomvc.html)
 
-![](.gitbook/assets/image%20%282%29.png)
+![](.gitbook/assets/image%20%286%29.png)
 
 일단 기본적인 틀만 잡아보자. 
 

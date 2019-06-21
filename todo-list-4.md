@@ -89,7 +89,7 @@ export default {
 이번에는 웹 저장소에 저장하기 때문에 새로고침에도 그대로 있다.  
 웹 저장소는 개발자도구\(F12\)를 들어가 Applicatoin에 들어가면 확인할 수 있다.
 
-![](.gitbook/assets/image%20%287%29.png)
+![](.gitbook/assets/image%20%2816%29.png)
 
 달라지는 부분은
 
