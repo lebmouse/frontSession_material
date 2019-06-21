@@ -107,5 +107,5 @@ gtah2mint@gtah2mint-X510UAR:~/Workspace/clone_instagram/clone_instagram$ npm run
 
 아래와 같이 나오면 성공이다.
 
-![](.gitbook/assets/image%20%287%29.png)
+![](.gitbook/assets/image%20%288%29.png)
 

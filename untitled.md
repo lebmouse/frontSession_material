@@ -186,6 +186,8 @@ export default {
     // vue에서는 자신의 data를 사용하기 위해 this를 사용한다.
     // 흔히 객체지향언어에서 자신의 인스턴스를 가리키기 위애 this라는 키워드를 사용한다.
     // 그와 비슷하다. 파이썬에 비슷한 키워드로 self가 있다.
+    // 우리가 태그에 이벤트리스너를 등록시켜놓으면 이벤트가 발생할 때마다 이 메소드가 실행된다.
+    // 메소드는 현재 value를 가져와 list에 추가시키는 메소드이다.
       this.list.push(this.value);
     }
 ```
@@ -194,5 +196,25 @@ export default {
 
 {% embed url="https://codepen.io/lebmouse/pen/bPBPKj/" %}
 
+### 3. V-for
 
+> v-for 공식문서 가이드  
+> [https://kr.vuejs.org/v2/guide/list.html](https://kr.vuejs.org/v2/guide/list.html)
+
+v-for는 장고처럼 html에 안에 for을 쓰기 위해서이다.  
+장고와 다른점은 리스트 렌더링이 클라이언트에서 발생하기 때문에 data를 변경하면 바로바로 사용자 화면단에서 리스트가 추가된다. 위의 \[Run Pen\]을 하면 어떻게 바로 아이템이 추가되는지 볼 수 있다.
+
+v-for는 걍 아래처럼 쓰면 된다. 자세한 사항은 공식문서를 참고하자.  
+html 태그 안에다가 v-for="\(item, index\) in list" v-bind:key="index"&gt;를 하면 배열\(list, array\)안에 있는 아이템은 첫 번째에 받고 두번째로 index가 주어진다. 공식문서를 봐도 모르면 나한테 질문해라 글쓰기 힘듬
+
+{% code-tabs %}
+{% code-tabs-item title="App.vue" %}
+```jsx
+      <ol>
+        <!-- 3. v-for, v-bind:key -->
+        <li v-for="(item,index) in list" :key="index">{{item}}</li>
+      </ol>
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
