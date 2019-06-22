@@ -169,5 +169,106 @@ vuex를 검색하고 설치하자.
 
 ![](.gitbook/assets/image%20%284%29.png)
 
+### 설정하기
 
+vue를 설치했다면 작업환경에 'node\_modules'에 vuex란 모듈이 설치되어 있을 것이다.  
+이제 우리는 이 vuex를 import해서 우리 Vue에 적용할 수 있다.
+
+{% code-tabs %}
+{% code-tabs-item title="main.js" %}
+```javascript
+import Vue from 'vue'
+import App from './App.vue'
+// vuex를 가져온다.
+import Vuex from 'vuex'
+
+Vue.config.productionTip = false
+// Vue에서 Vuex를 사용하기 위해 Vue.use 메소드를 사용한다.
+Vue.use(Vuex);
+
+// Vuex를 생성한다. Vuex는 아래처럼 인스턴스를 생성하여 사용한다.
+const store = new Vuex.Store({
+  // Vuex는 기본적으로 아래 4개의 핵심컨셉이 있다.
+  // 지금 이해는 안갈테니 몇번 사용하고 다시 읽어보는 것을 추천한다.
+  // 전역으로 관리되는 상태이다. Vue에서 data와 비슷하다.
+  state: {},
+  // state를 가져올 때 사용하는 속성이다. Vue에서 computed와 비슷하다.
+  getters: {},
+  // 이것은 state를 변경하기 위한 속성이다. state는 무조건 mutatoins으로 변경되어야 한다.
+  // 동기적인 요청이다.
+  mutations: {},
+  // 비동기적인 요청, 예를 들어 외부 api로 데이터를 가져올 때 사용하는 속성이다.
+  actions: {}
+})
+
+new Vue({
+  // 우리의 Vue에 위에 store를 등록한다.
+  store,
+  render: h => h(App),
+}).$mount('#app')
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+위와 같은 방법은 작동은 잘 되지만 별로 추천되지 않는다.  아래처럼 구조를 변경하자.
+
+> 공식문서 : 어플리케이션 구조  
+> [https://vuex.vuejs.org/kr/guide/structure.html](https://vuex.vuejs.org/kr/guide/structure.html)
+
+```markup
+|-- node_modules
+|-- public
+|    |-- index.html
+|-- src
+     |-- App.vue
+     |-- main.js # Vue에 모듈을 등록할 때만 사용하자. 쓸데없는 코드를 쓰면 지저분해진다.
+     |-- assets # 이미지같은 에셋을 모아두는 폴더 
+     |-- components
+     |-- store
+          |-- index.js # 모듈을 조합하고 저장소를 내보내는 곳 입니다.
+          |-- getters.js
+          |-- actions.js
+          |-- mutaions.js
+          |-- module # 좀 더 분해하면 기능별로 분화시킬 수 있다.
+```
+
+이제 아래처럼 수정하자. 우리는 작은 프로젝트이기 때문에 index.js에 전부 작성하자.
+
+{% code-tabs %}
+{% code-tabs-item title="src/store/index.js" %}
+```javascript
+// 아까와 비슷하게 vuex를 활성하 시키자. 다만 main.js가 아닌 파일에서 코드를 작성한 것이다.
+import Vue from 'vue'
+import Vuex from 'vuex'
+
+Vue.use(Vuex)
+
+export default new Vuex.Store({
+  state: {},
+  getters: {},
+  actions: {},
+  mutations: {}
+})
+```
+{% endcode-tabs-item %}
+
+{% code-tabs-item title="src/main.js" %}
+```javascript
+import Vue from 'vue'
+import App from './App.vue'
+// 작성한 파일을 임포트하자.
+import store from './store/index'
+
+Vue.config.productionTip = false
+
+new Vue({
+  // 임포트했으면 등록하자.
+  store,
+  render: h => h(App),
+}).$mount('#app')
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+이제 vuex를 사용하기 위한 준비를 끝냈다.
 
