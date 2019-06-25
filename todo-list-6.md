@@ -2,7 +2,7 @@
 description: 컴포넌트 분리
 ---
 
-# Todo List 6
+# Todo List 5
 
 ## 컴포넌트 분리
 

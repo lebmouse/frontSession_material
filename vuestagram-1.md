@@ -1,4 +1,4 @@
-# Todo List 1
+# Todo List 0
 
 ## Vue를 들어가기전에 
 
@@ -14,11 +14,11 @@
 html 작성할 떄 doc라는 snippet을 이용한다. vue에도 scf란 약어로 scaffold\(골격\)을 잡을 수 있다.  
 만약 아무것도 안뜬다 하면 아래를 따라하라.
 
+![](.gitbook/assets/image%20%2823%29.png)
+
 ![](.gitbook/assets/image%20%2820%29.png)
 
-![](.gitbook/assets/image%20%2818%29.png)
-
-![](.gitbook/assets/image%20%2813%29.png)
+![](.gitbook/assets/image%20%2814%29.png)
 
 {% code-tabs %}
 {% code-tabs-item title="vue.json" %}
@@ -150,5 +150,5 @@ gtah2mint@gtah2mint-X510UAR:~/Workspace/clone_instagram/clone_instagram$ npm run
 
 아래와 같이 나오면 성공이다.
 
-![](.gitbook/assets/image%20%2817%29.png)
+![](.gitbook/assets/image%20%2819%29.png)
 

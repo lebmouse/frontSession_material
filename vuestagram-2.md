@@ -2,7 +2,7 @@
 description: todo list 만들
 ---
 
-# Todo List 2
+# Todo List 1
 
 vue.js를 배울떄 가장 많이 Todo List를 만든다. vue로 인스타그램을 만들기 전에 Todo List로 vue.js를 입문해보자.
 
