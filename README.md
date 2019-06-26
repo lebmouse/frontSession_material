@@ -1,8 +1,16 @@
 # README
 
+## 수정사항 있으면 여기다 요
+
+[https://app.gitbook.com/@gtah2yk/s/vuestagram-clone-coding/](https://app.gitbook.com/@gtah2yk/s/vuestagram-clone-coding/todo-list-10)
+
 ## 전체코드
 
-[https://github.com/lebmouse/frontSession\_material](https://github.com/lebmouse/frontSession_material)
+{% embed url="https://github.com/lebmouse/frontSession\_material" %}
+
+{% embed url="https://github.com/lebmouse/vue-todolist" %}
+
+
 
 ## 강의자료
 
