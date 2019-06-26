@@ -9,16 +9,18 @@
 
 ### 알아야 것들
 
+위에 확장기능을 추가하면 아래 기능을 사용가능하게 된다.
+
 #### scaffold 또는 snippet를 이용하자.
 
 html 작성할 떄 doc라는 snippet을 이용한다. vue에도 scf란 약어로 scaffold\(골격\)을 잡을 수 있다.  
 만약 아무것도 안뜬다 하면 아래를 따라하라.
 
-![](.gitbook/assets/image%20%2823%29.png)
+![](.gitbook/assets/image%20%2828%29.png)
 
-![](.gitbook/assets/image%20%2820%29.png)
+![](.gitbook/assets/image%20%2825%29.png)
 
-![](.gitbook/assets/image%20%2814%29.png)
+![](.gitbook/assets/image%20%2817%29.png)
 
 {% code-tabs %}
 {% code-tabs-item title="vue.json" %}
@@ -43,6 +45,13 @@ html 작성할 떄 doc라는 snippet을 이용한다. vue에도 scf란 약어로
 
 위에 prefix에 vue라고 설정했으니깐, 이제 vue파일에서 vue라고 하면 우리가 미리 설정한 scaffold를 사용할 수 있다.
 
+## Vue 설치방법
+
+* **Vue CLI 3.0 사용하기**
+  * \*\*\*\*[http://vuejs.kr/vue/vue-cli/2018/01/27/vue-cl](http://vuejs.kr/vue/vue-cli/2018/01/27/vue-cli-3/)
+
+위의 주소에서 vue cli 3를 설치하자.
+
 ## vue create
 
 이제 vue cli를 사용해서 vue를 설치해보자.
@@ -52,8 +61,7 @@ vue create "project\_name"으로 프로젝트를 시작해보자.
 
 * 공식문서
   * [https://cli.vuejs.org/guide/](https://cli.vuejs.org/guide/)
-* **Vue CLI 3.0 사용하기**
-  * \*\*\*\*[http://vuejs.kr/vue/vue-cli/2018/01/27/vue-cli-3/](http://vuejs.kr/vue/vue-cli/2018/01/27/vue-cli-3/)
+* \*\*\*\*[i-3/](http://vuejs.kr/vue/vue-cli/2018/01/27/vue-cli-3/)
 
 ```bash
 gtah2mint@gtah2mint-X510UAR:~/Workspace/clone_instagram$ vue create "clone_instagram"
@@ -87,11 +95,11 @@ Vue CLI v3.8.2
 # 이제 걍 엔터만 치면된다.
 ```
 
-![](.gitbook/assets/image%20%289%29.png)
+![](.gitbook/assets/image%20%2811%29.png)
 
 그럼 아래처럼 디렉토리가 만들어 질것이다. 장고의 django-admin startproject "project name"과 같다.
 
-![](.gitbook/assets/image%20%285%29.png)
+![](.gitbook/assets/image%20%287%29.png)
 
 이제 아래 명령어로 서버를 작동시켜보자. 장고에서 python3 manage.py runserver와 비슷한 명령어이다.
 
@@ -132,7 +140,7 @@ gtah2mint@gtah2mint-X510UAR:~/Workspace/clone_instagram/clone_instagram$ npm run
 
 아래처럼 구동되면 성공이다!!!
 
-![](.gitbook/assets/image%20%283%29.png)
+![](.gitbook/assets/image%20%284%29.png)
 
 ```markup
 // src/App.vue
@@ -150,5 +158,5 @@ gtah2mint@gtah2mint-X510UAR:~/Workspace/clone_instagram/clone_instagram$ npm run
 
 아래와 같이 나오면 성공이다.
 
-![](.gitbook/assets/image%20%2819%29.png)
+![](.gitbook/assets/image%20%2824%29.png)
 

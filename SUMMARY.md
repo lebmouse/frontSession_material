@@ -20,4 +20,7 @@
 * [Todo List 5](todo-list-6.md)
 * [Todo List 6](todo-list-7.md)
 * [Todo List 7](todo-list-8.md)
+* [Todo List 8](todo-list-8-1.md)
+* [Todo List 9](todo-list-9.md)
+* [Todo List 10](todo-list-10.md)
 
