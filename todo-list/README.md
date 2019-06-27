@@ -1,4 +1,4 @@
-# Todo List
+# Todo List\(Vue.js + Django\)
 
 Vue.js를 입문할 때 많이 만들어보는 Todo List다.
 

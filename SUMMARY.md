@@ -13,7 +13,7 @@
   * [인스타그램 클론코딩9](html-css-js/9.md)
   * [인스타그램 클론코딩10](html-css-js/10.md)
   * [인스타그램 클론코딩11](html-css-js/11.md)
-* [Todo List](todo-list/README.md)
+* [Todo List\(Vue.js + Django\)](todo-list/README.md)
   * [Todo List 0](todo-list/vuestagram-1.md)
   * [Todo List 1](todo-list/vuestagram-2.md)
   * [Todo List 2](todo-list/untitled.md)
@@ -31,4 +31,6 @@
     * [API 가이드 : Users](vue.js/1/api-users.md)
   * [프론트 1](vue.js/untitled.md)
   * [프론트 2](vue.js/2.md)
+  * [프론트 3](vue.js/3.md)
+* [Untitled](untitled.md)
 
