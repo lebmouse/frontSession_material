@@ -121,7 +121,7 @@ urlpatterns = [
 그리고 제대로 렌더링 되는지 확인하자.   
 크롬에 이따구로 나오면 성공이다.
 
-![](.gitbook/assets/image%20%2823%29.png)
+![](../.gitbook/assets/image%20%2829%29.png)
 
-![](.gitbook/assets/image%20%2816%29.png)
+![](../.gitbook/assets/image%20%2821%29.png)
 

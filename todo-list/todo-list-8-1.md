@@ -153,5 +153,5 @@ urlpatterns = [
 
 아래 처럼 나오면 성공이다.
 
-![](.gitbook/assets/image%20%282%29.png)
+![](../.gitbook/assets/image%20%283%29.png)
 

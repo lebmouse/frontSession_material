@@ -12,7 +12,7 @@ vue에서 장고로 만든 서버와 통신하기 위해선 ajax\(Asynchronous J
   
 AJAX를 쉽게 사용하기 위해 axios란 것을 설치하자. 전에 vuex를 설치한것처럼 axios란 것을 설치하자.
 
-![](.gitbook/assets/image%20%286%29.png)
+![](../.gitbook/assets/image%20%289%29.png)
 
 ### vue에 설정
 
@@ -76,11 +76,11 @@ export default new Vuex.Store({
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-![](.gitbook/assets/image%20%2814%29.png)
+![](../.gitbook/assets/image%20%2819%29.png)
 
 위 사진처럼 아직 정삭적으로 렌더링을 못한다.
 
-![](.gitbook/assets/image%20%2818%29.png)
+![](../.gitbook/assets/image%20%2823%29.png)
 
 위에 `console.log(response)` 으로 response를 console창에서 log로 볼 수 있다.  
 data를 보면 배열로 우리 모델 그대로 넘어온 것을 볼 수 있다.  
@@ -115,7 +115,7 @@ Vue의 코드를 고쳐보다.
 
 정상적으로 렌더링 될 것이다. 그럼 이제 제출기능도 되게 해보자.
 
-![](.gitbook/assets/image%20%2821%29.png)
+![](../.gitbook/assets/image%20%2827%29.png)
 
 웹 저장소에서 서버로 바꾸니깐 코드가 생각보다 많이 변경됬다. 이래서 처음에 설계가 중요하다 ㅋ  
 일단 vuex 코드를 수정하자.

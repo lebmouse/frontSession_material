@@ -17,7 +17,7 @@ Vuex는 처음 접하면 직관적으로 이해가 안될 수도 있다. 걱정�
 
 create\(\)와 mounted\(\)는 vue의 라이프사이클 훅이다. 
 
-![](.gitbook/assets/image%20%2827%29.png)
+![](../.gitbook/assets/image%20%2837%29.png)
 
 위에는 vue의 라이프사이클 다이어그램이 있다.  
 Vue는 라이프사이클은 간단하게 살펴보면  

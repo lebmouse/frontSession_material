@@ -18,7 +18,7 @@ description: 컴포넌트 분리
 </header>
 ```
 
-![](.gitbook/assets/image%20%2812%29.png)
+![](../.gitbook/assets/image%20%2817%29.png)
 
 그럼 본격적으로 컴포넌트 분할을 해보자.
 
@@ -147,14 +147,14 @@ gtah2mint@gtah2mint-X510UAR:~/Workspace/clone_instagram/clone_instagram$ vue ui
 
 위에 주소로 들어가면 아래같은 화면이 나온다.
 
-![](.gitbook/assets/image%20%289%29.png)
+![](../.gitbook/assets/image%20%2812%29.png)
 
 우리가 만든 프로젝트를 가져오자. 각자 만든 폴더에다가. 가져오기를 누르면 된다.
 
 가져오기 버튼옆에 만들기 버튼이 보이는가 사실 cli를 사용하지 않고 gui를 사용하여 프로젝트를 설정할 수도 있다!!  
 이러한 점이 vue의 장점이다.
 
-![](.gitbook/assets/image%20%2810%29.png)
+![](../.gitbook/assets/image%20%2814%29.png)
 
 이제 폴더 가져오기를 누르고 옆에 메뉴에서 의존성을 눌러보자.  
 아래처럼 나올 것이다.  
@@ -163,11 +163,11 @@ gtah2mint@gtah2mint-X510UAR:~/Workspace/clone_instagram/clone_instagram$ vue ui
 
 여기에 vuex를 설치하자. 우측상단을 보면 의존성 설치 버튼이 있다.
 
-![](.gitbook/assets/image%20%2815%29.png)
+![](../.gitbook/assets/image%20%2820%29.png)
 
 vuex를 검색하고 설치하자.
 
-![](.gitbook/assets/image%20%285%29.png)
+![](../.gitbook/assets/image%20%288%29.png)
 
 ### 설정하기
 

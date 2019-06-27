@@ -16,11 +16,11 @@
 html 작성할 떄 doc라는 snippet을 이용한다. vue에도 scf란 약어로 scaffold\(골격\)을 잡을 수 있다.  
 만약 아무것도 안뜬다 하면 아래를 따라하라.
 
-![](.gitbook/assets/image%20%2828%29.png)
+![](../.gitbook/assets/image%20%2838%29.png)
 
-![](.gitbook/assets/image%20%2825%29.png)
+![](../.gitbook/assets/image%20%2834%29.png)
 
-![](.gitbook/assets/image%20%2817%29.png)
+![](../.gitbook/assets/image%20%2822%29.png)
 
 {% code-tabs %}
 {% code-tabs-item title="vue.json" %}
@@ -41,7 +41,7 @@ html 작성할 떄 doc라는 snippet을 이용한다. vue에도 scf란 약어로
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-![](.gitbook/assets/image.png)
+![](../.gitbook/assets/image.png)
 
 위에 prefix에 vue라고 설정했으니깐, 이제 vue파일에서 vue라고 하면 우리가 미리 설정한 scaffold를 사용할 수 있다.
 
@@ -95,11 +95,11 @@ Vue CLI v3.8.2
 # 이제 걍 엔터만 치면된다.
 ```
 
-![](.gitbook/assets/image%20%2811%29.png)
+![](../.gitbook/assets/image%20%2815%29.png)
 
 그럼 아래처럼 디렉토리가 만들어 질것이다. 장고의 django-admin startproject "project name"과 같다.
 
-![](.gitbook/assets/image%20%287%29.png)
+![](../.gitbook/assets/image%20%2810%29.png)
 
 이제 아래 명령어로 서버를 작동시켜보자. 장고에서 python3 manage.py runserver와 비슷한 명령어이다.
 
@@ -140,7 +140,7 @@ gtah2mint@gtah2mint-X510UAR:~/Workspace/clone_instagram/clone_instagram$ npm run
 
 아래처럼 구동되면 성공이다!!!
 
-![](.gitbook/assets/image%20%284%29.png)
+![](../.gitbook/assets/image%20%287%29.png)
 
 ```markup
 // src/App.vue
@@ -158,5 +158,5 @@ gtah2mint@gtah2mint-X510UAR:~/Workspace/clone_instagram/clone_instagram$ npm run
 
 아래와 같이 나오면 성공이다.
 
-![](.gitbook/assets/image%20%2824%29.png)
+![](../.gitbook/assets/image%20%2831%29.png)
 
