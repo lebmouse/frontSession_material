@@ -49,11 +49,11 @@ class TodoList(APIView):
 
 post를 할 수 있는 창이 나온다.
 
-![](../.gitbook/assets/image%20%2840%29.png)
+![](../.gitbook/assets/image%20%2842%29.png)
 
 성공하면 제대로 성공했다고 data를 보여준다.
 
-![](../.gitbook/assets/image%20%2839%29.png)
+![](../.gitbook/assets/image%20%2841%29.png)
 
 ## Vue.js와 통신하기
 

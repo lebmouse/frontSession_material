@@ -63,7 +63,7 @@ Home 부터 보자. 아래처럼 구성하면 될듯하다.
 
 여기도 Bottom Navigation이 있다.
 
-![&#xD504;&#xB85C;&#xD544;&#xD398;&#xC774;](../.gitbook/assets/image%20%2833%29.png)
+![&#xD504;&#xB85C;&#xD544;&#xD398;&#xC774;](../.gitbook/assets/image%20%2834%29.png)
 
 일단 App.vue 코드를 이렇게 만들고 싶다. 그리고 자주보이는 저 bottom navigatoin을 만들자.
 
